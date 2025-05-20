@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weekly Task View</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      text-align: center;
+      padding: 2rem;
+    }
+    h1 {
+      color: #2a5db0;
+    }
+    h2 {
+      color: #3a65c5;
+    }
+    .days {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .day {
+      background-color: #ffffff;
+      padding: 1rem 2rem;
+      border: 2px solid #2a5db0;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #2a5db0;
+      font-weight: bold;
+      transition: background-color 0.2s ease, transform 0.2s ease;
+    }
+    .day:hover {
+      background-color: #e6f0ff;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1>Weekly Task View</h1>
+  <h2>Choose a Day</h2>
+  <div class="days">
+    <a class="day" href="sunday.html">Sunday</a>
+    <a class="day" href="monday.html">Monday</a>
+    <a class="day" href="tuesday.html">Tuesday</a>
+    <a class="day" href="wednesday.html">Wednesday</a>
+    <a class="day" href="thursday.html">Thursday</a>
+    <a class="day" href="friday.html">Friday</a>
+    <a class="day" href="saturday.html">Saturday</a>
+  </div>
+</body>
+</html>
